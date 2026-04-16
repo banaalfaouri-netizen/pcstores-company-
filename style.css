@@ -1,1 +1,17 @@
 
+header {
+  background: #6B9FB3;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 120px;
+}
+
+header h1 {
+  margin: 0;
+}
