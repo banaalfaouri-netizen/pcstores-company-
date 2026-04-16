@@ -4,18 +4,14 @@
 <meta charset="UTF-8">
 <title>PC Stores</title>
 
-<style>
-body {font-family: Arial; margin:0;}
-header {background:#0a3d62; color:white; padding:20px; text-align:center;}
-nav {background:#3c6382; text-align:center; padding:10px;}
-nav button {padding:10px; margin:5px;}
-section {padding:20px;}
-</style>
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
+<img src="logo.png">
 <h1>PC Stores</h1>
 <p>Successful Business Approach</p>
 </header>
@@ -26,25 +22,43 @@ section {padding:20px;}
 </nav>
 
 <section>
+
 <h2 id="about">About Us</h2>
 <p id="aboutText">
 PC Stores is an IT solution provider established in 1998, based in Amman – Jordan.
 </p>
+
+<h2 id="products">Products</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>POS Systems</h3>
+<p>Advanced POS solutions.</p>
+</div>
+
+<div class="card">
+<h3>Barcode Scanners</h3>
+<p>Honeywell & Newland devices.</p>
+</div>
+
+<div class="card">
+<h3>Printers</h3>
+<p>Dascom receipt printers.</p>
+</div>
+
+</div>
+
+<h2 id="contact">Contact</h2>
+<p>Email: info@pcstores.com.jo</p>
+
+<a href="https://wa.me/962XXXXXXXXX" target="_blank">
+<button>Contact us on WhatsApp</button>
+</a>
+
 </section>
 
-<script>
-function setLang(lang){
-if(lang === 'ar'){
-document.body.dir = "rtl";
-about.innerText = "من نحن";
-aboutText.innerText = "شركة مخازن الحاسوب تأسست عام 1998 في عمان.";
-}else{
-document.body.dir = "ltr";
-about.innerText = "About Us";
-aboutText.innerText = "PC Stores is an IT solution provider established in 1998, based in Amman – Jordan.";
-}
-}
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
