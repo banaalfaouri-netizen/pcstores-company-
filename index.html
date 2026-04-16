@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PC Stores</title>
+
+<style>
+body {font-family: Arial; margin:0;}
+header {background:#0a3d62; color:white; padding:20px; text-align:center;}
+nav {background:#3c6382; text-align:center; padding:10px;}
+nav button {padding:10px; margin:5px;}
+section {padding:20px;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>PC Stores</h1>
+<p>Successful Business Approach</p>
+</header>
+
+<nav>
+<button onclick="setLang('en')">English</button>
+<button onclick="setLang('ar')">العربية</button>
+</nav>
+
+<section>
+<h2 id="about">About Us</h2>
+<p id="aboutText">
+PC Stores is an IT solution provider established in 1998, based in Amman – Jordan.
+</p>
+</section>
+
+<script>
+function setLang(lang){
+if(lang === 'ar'){
+document.body.dir = "rtl";
+about.innerText = "من نحن";
+aboutText.innerText = "شركة مخازن الحاسوب تأسست عام 1998 في عمان.";
+}else{
+document.body.dir = "ltr";
+about.innerText = "About Us";
+aboutText.innerText = "PC Stores is an IT solution provider established in 1998, based in Amman – Jordan.";
+}
+}
+</script>
+
+</body>
+</html>
