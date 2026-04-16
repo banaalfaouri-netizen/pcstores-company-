@@ -39,6 +39,23 @@ h2, h3 {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 button {
   background: #6B9FB3;
   color: white;
