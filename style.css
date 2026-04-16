@@ -56,10 +56,7 @@ h2, h3 {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-button {
-  background: #6B9FB3;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
+.card button {
+  margin-top: 10px;
+  width: 100%;
 }
